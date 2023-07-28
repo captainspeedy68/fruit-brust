@@ -58,7 +58,7 @@
   <header class="md:container md:mx-auto">
     <!-- navbar section -->
     <div
-      class=" navbar md:max-2xl:bg-[#F85559] bg-white lg:text-white  my-12 mx-auto rounded-full w-full ">
+      class=" navbar md:max-2xl:bg-[#F85559] bg-white lg:text-white  my-12 mx-auto rounded-full w-full max-md:justify-between">
       <div class="navbar-start justify-evenly text-lg pr-16 max-lg:hidden">
         <ul class="flex font-medium ">
           <li class="p-4"><a>Homepage</a></li>
@@ -77,7 +77,9 @@
         </div>
         <img class="icon" src="images/Frame.svg" alt="">
       </div>
-      <!-- <div class=" dropdown ">
+
+      <!-- dropdown -->
+      <div class="dropdown lg:hidden">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                   </label>
@@ -88,8 +90,10 @@
                     </li>
                     <li><a>Shop</a></li>
                   </ul>
-              </div> -->
-    </div>
+              </div>
+    
+              
+            </div>
 
     </div>
     </div>
@@ -98,8 +102,8 @@
 
   <main class="md:container md:mx-auto">
     <!-- section1 -->
-    <div class="carousel w-full ">
-      <div id="slide1" class="carousel-item relative w-full justify-center items-center">
+    <div class="carousel w-full max-md:mt-20 overflow-hidden">
+      <div id="slide1" class="carousel-item relative w-full justify-center items-center overflow-hidden">
         <div class="hero-overlay bg-opacity-60"></div>
         <img src="images/banner1.png" class="w-full" />
         <div class="absolute text-white md:text-7xl text-center items-center justify-center w-ful">
@@ -113,9 +117,9 @@
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide2" class="carousel-item relative w-full justify-center items-center">
-        <img src="images/banner2.png" class="w-full" />
-        <div class="absolute text-white md:text-7xl text-center items-center justify-center">
+      <div id="slide2" class="carousel-item relative w-full justify-center items-center overflow-hidden">
+        <img src="images/banner2.png" class="w-full overflow-hidden" />
+        <div class="absolute text-white md:text-7xl text-center items-center justify-center overflow-hidden">
           <h2>Exotic tastes at your <br> doorstep</h2>
           <p class="text-white md:text-xl my-auto md:p-6">We supply highly quality organic products</p>
           <button class="btn btn-error bg-[#F85559] text-white">Shop Now</button>
@@ -125,7 +129,7 @@
           <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide3" class="carousel-item relative w-full justify-center items-center">
+      <div id="slide3" class="carousel-item relative w-full justify-center items-center overflow-hidden">
         <img src="images/banner3.png" class="w-full" />
         <div class="absolute text-white md:text-7xl text-center items-center justify-center">
           <h2>Exotic tastes at your <br> doorstep</h2>
@@ -137,7 +141,7 @@
           <a href="#slide4" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide4" class="carousel-item relative w-full justify-center items-center">
+      <div id="slide4" class="carousel-item relative w-full justify-center items-center overflow-hidden">
         <img src="images/banner4.png" class="w-full" />
         <div class="absolute text-white text-7xl text-center items-center justify-center">
           <h2>Exotic tastes at your <br> doorstep</h2>
@@ -163,7 +167,7 @@
 
     <!-- deal of the day section -->
     <div class="my-10 justify-center">
-      <div class="flex justify-between max-md:flex-col">
+      <div class="flex justify-between max-md:flex-col max-md:items-end max-md:text-center">
         <div>
           <h2 class="font-semibold text-5xl gap-y-3">Deal of the day</h2>
           <p class="font-medium text-base gap-y-5 my-4">Contrary to popular belief, is not simply random text. It has
@@ -433,7 +437,7 @@
         <br> Latin literature from 45 BC, making it over 2000 years old.
       </p>
 
-      <div class="hero min-h-screen bg-base-500">
+      <div class="hero min-h-screen bg-base-500 max-md:text-center max-md:items-center">
         <div class="hero-content flex-col  lg:flex-row py-0">
           <div>
             <div class="lg:flex">
